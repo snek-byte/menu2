@@ -1,3 +1,16 @@
+h1 {
+  font-family: Pro-Display-Heavy.otf";
+  font-weight: 900;
+  font-style: normal;
+}
+
+p.quote {
+  font-family: "Lato Black";
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 body {
   margin: 0;
   padding: 0;
