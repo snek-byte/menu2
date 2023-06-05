@@ -62,18 +62,20 @@ body {
   font-size: 2em;
 }
 
-
-
 .menu-item a {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
   font-size: 2em;
-    font-family: Pro-Display-Heavy.otf";
-  font-weight: 900;
-  font-style: normal;
+  font-family: 'avenir-next-bold.ttf'; 
 }
+
+.menu-item a:hover {
+  text-decoration: none; 
+}
+
+
 
 .submenu {
   list-style-type: none;
