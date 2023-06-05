@@ -44,14 +44,12 @@ body {
   list-style: none;
   padding: 0;
 }
+
 .menu-list {
-  max-height: calc 100px 50px;
+  max-height: calc(100vh - 150px);
   overflow-y: auto;
 }
 
-.menu-list::-webkit-scrollbar {
-  display: none;
-}
 
 #close-btn {
   position: absolute;
