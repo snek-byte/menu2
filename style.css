@@ -1,0 +1,60 @@
+#hamburger-menu {
+  position: relative;
+}
+
+#menu-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #004037;
+  color: #4db6ac;
+  display: none;
+  top: 0;
+  left: 0;
+  padding: 100px 50px;
+}
+
+#menu-overlay > nav > ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu-btn {
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0px;
+}
+
+#close-btn {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 30px;
+  color: #4db6ac;
+  font-size: 2em;
+}
+
+.menu-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 2em;
+}
+
+#menu-overlay .submenu {
+  list-style-type: none;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#menu-overlay .submenu li {
+  margin: 0px;
+}
