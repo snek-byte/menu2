@@ -37,6 +37,7 @@ body {
   color: #4db6ac;
   display: none;
   padding: 100px 50px;
+   overflow: auto; 
 }
 
 #menu-overlay ul {
@@ -44,7 +45,16 @@ body {
   padding: 0;
 }
 
+.menu-list {
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+}
+
+
 #close-btn {
+  position: absolute;
+  top: 10px;  
+  right: 10px; 
   cursor: pointer;
   background: none;
   border: none;
@@ -58,7 +68,14 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 2em;
+  font-family: 'avenir-next-bold.ttf'; 
 }
+
+.menu-item a:hover {
+  text-decoration: none; 
+}
+
+
 
 .submenu {
   list-style-type: none;
@@ -70,3 +87,4 @@ body {
 .submenu li {
   margin: 5px 0;
 }
+
