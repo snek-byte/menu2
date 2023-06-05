@@ -48,6 +48,9 @@ body {
 .menu-list {
   max-height: calc(100vh - 150px);
   overflow-y: auto;
+  font-family: Pro-Display-Heavy.otf";
+  font-weight: 900;
+  font-style: normal;
 }
 
 
