@@ -1,22 +1,28 @@
+@font-face {
+  font-family: 'Pro-Display-Heavy';
+  src: url('https://github.com/blaisck/sfwin/blob/master/SFPro/OpenType/SF-Pro-Display-Heavy.otf');
+}
+
+
 h1 {
-  font-family: Pro-Display-Heavy.otf";
+  font-family: "Pro-Display-Heavy", Fallback, sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 
 p.quote {
-  font-family: "Lato Black";
+  font-family: "Lato Black", Fallback, sans-serif;
   font-weight: 400;
   font-style: italic;
 }
 
-
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Pro-Display-Heavy", sans-serif;
   background-color: #f4f4f4;
 }
+
 
 #hamburger-menu {
   position: relative;
@@ -87,4 +93,3 @@ body {
 .submenu li {
   margin: 5px 0;
 }
-
