@@ -60,11 +60,13 @@ body {
   cursor: pointer;
   background: none;
   border: none;
-  color: #4db6ac
-   padding: 0px;
-   font-size: 2em;  
+  color: #4db6ac;
+  padding: 0px;
+  font-size: 2em;
+  position: absolute;
+  right: 10px;  
+  top: 10px;    
 }
-
 
 .menu-item a {
   display: flex;
