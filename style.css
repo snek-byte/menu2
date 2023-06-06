@@ -30,6 +30,19 @@ body {
 #menu-btn {
   font-size: 30px;
   cursor: pointer;
+  padding: 0px;
+}
+
+#close-btn {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 30px;
+  color: #4db6ac;
+  font-size: 2em;
 }
 
 #menu-overlay {
@@ -45,24 +58,11 @@ body {
    overflow: auto; 
 }
 
-#menu-overlay ul {
-  list-style: none;
-  padding: 0;
-}
 
 .menu-list {
   max-height: calc(100vh - 150px);
   overflow-y: auto;
   
-}
-
-#close-btn {
-  cursor: pointer;
-  background: none;
-  border: none;
-  color: #4db6ac
-   padding: 0px;
-   font-size: 2em;  
 }
 
 
