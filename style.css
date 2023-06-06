@@ -4,13 +4,13 @@
 }
 
 h1 {
-  font-family: "Pro-Display-Medium", Fallback, sans-serif;
+  font-family: "SF-UI-DISPLAY-MEDIUM", Fallback, sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 
 p.quote {
-  font-family: "Lato Black", Fallback, sans-serif;
+  font-family: "SF-UI-DISPLAY-MEDIUM", Fallback, sans-serif;
   font-weight: 400;
   font-style: italic;
 }
@@ -18,7 +18,7 @@ p.quote {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Pro-Display-MEDIUM", sans-serif;
+  font-family: "SF-UI-DISPLAY-MEDIUM", sans-serif;
   background-color: #f4f4f4;
 }
 
@@ -73,7 +73,7 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 2em;
-  font-family: "Pro-Display-Medium"; 
+  font-family: "SF-UI-DISPLAY-MEDIUM"; 
 }
 
 .menu-item a:hover {
