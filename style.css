@@ -53,19 +53,16 @@ body {
 .menu-list {
   max-height: calc(100vh - 150px);
   overflow-y: auto;
+  
 }
 
 #close-btn {
-    position: absolute;
-    right: 0px; 
-    top: 50px; /* adjust this value as needed */
-    cursor: pointer;
-    background: none; /* Remove default button background */
-    border: none;     /* Remove default button border */
-    padding: 0px;     /* Remove default button padding */
-    color: #4db6ac;   /* Set the color to #4db6ac */
-    font-size: 2em;   /* Increase the font-size to make the button larger */
-
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #4db6ac
+   padding: 0px;
+   font-size: 2em;   /* Increase the font-size to make the button larger */
 }
 
 
