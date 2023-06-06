@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Overlay</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Overlay</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 </head>
 <body>
-    <div id="menu-btn">Menu</div>
-    <div id="menu-overlay">
-        <div id="close-btn" class="menu-close">X</div>
-        <nav class="menu-items">
-            <div class="menu-item">
-                <a href="#">Link 1</a>
-                <div class="submenu">
-                    <a href="#">Sublink 1</a>
-                    <a href="#">Sublink 2</a>
-                    <a href="#">Sublink 3</a>
-                </div>
-            </div>
-            <div class="menu-item">
-                <a href="#">Link 2</a>
-                <div class="submenu">
-                    <a href="#">Sublink 1</a>
-                    <a href="#">Sublink 2</a>
-                    <a href="#">Sublink 3</a>
-                </div>
-            </div>
-            <div class="menu-item">
-                <a href="#">Link 3</a>
-                <div class="submenu">
-                    <a href="#">Sublink 1</a>
-                    <a href="#">Sublink 2</a>
-                    <a href="#">Sublink 3</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <script src="script.js"></script>
+  <div id="menu-btn">Menu</div>
+  <div id="menu-overlay" class="menu-overlay">
+    <button id="close-btn" class="close-btn">X</button>
+    <nav>
+      <ul>
+        <li>
+          <a href="#" class="menu-item">Link 1</a>
+          <ul class="submenu">
+            <li><a href="#">Sublink 1</a></li>
+            <li><a href="#">Sublink 2</a></li>
+            <li><a href="#">Sublink 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="menu-item">Link 2</a>
+          <ul class="submenu">
+            <li><a href="#">Sublink 1</a></li>
+            <li><a href="#">Sublink 2</a></li>
+            <li><a href="#">Sublink 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="menu-item">Link 3</a>
+          <ul class="submenu">
+            <li><a href="#">Sublink 1</a></li>
+            <li><a href="#">Sublink 2</a></li>
+            <li><a href="#">Sublink 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
