@@ -60,7 +60,9 @@ body {
   padding: 100px 50px;
    overflow: auto; 
 }
-
+#li {
+    list-style-type: none;
+}
 
 .menu-list {
   max-height: calc(100vh - 150px);
