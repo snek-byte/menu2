@@ -1,8 +1,7 @@
-  @font-face {
+@font-face {
   font-family: 'Pro-Display-Heavy';
-  src: url('https://github.com/blaisck/sfwin/blob/master/SFPro/OpenType/SF-Pro-Display-Heavy.otf');
+  src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-Pro-Display-Heavy.otf') format('opentype');
 }
-
 
 h1 {
   font-family: "Pro-Display-Heavy", Fallback, sans-serif;
@@ -78,8 +77,9 @@ body {
 }
 
 .menu-item a:hover {
-  text-decoration: none; 
+  text-decoration: none !important;
 }
+
 
 .submenu {
   list-style-type: none;
