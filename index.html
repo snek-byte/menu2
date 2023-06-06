@@ -1,106 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./style.css">
     <title>Scents of the World</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-</head>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+  </head>
 
-<body>
+  <body>
     <div id="myNav" class="nav">
-        <div id="hamburger-menu">
-            <button id="menu-btn">&#9776;</button>
-            <h1>Hello</h1>
-            <div id="menu-overlay">
-                <button id="close-btn" onclick="closeNav()">✗</button>
-                <ul>
-                    <li class="menu-item">
-                        <a href="#item2">
-                            <svg height="40" width="40">
-                                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                            </svg>
-                            Asia
-                        </a>
-                        <ul class="submenu">
-                            <li><a href="#">Sub-item 1</a></li>
-                            <li><a href="#">Sub-item 2</a></li>
-                            <li><a href="#">Sub-item 3</a></li>
-                        </ul>
-                    </li>
-                    <<div id="myNav" class="nav">
-        <div id="hamburger-menu">
-            <button id="menu-btn">&#9776;</button>
-            <h1>Hello</h1>
-            <div id="menu-overlay">
-                <button id="close-btn" onclick="closeNav()">✗</button>
-                <ul>
-                    <li class="menu-item">
-                        <a href="#item2">
-                            <svg height="40" width="40">
-                                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                            </svg> Asia
-                        </a>
-                        <ul class="submenu">
-                            <li><a href="#">Sub-item 1</a></li>
-                            <li><a href="#">Sub-item 2</a></li>
-                            <li><a href="#">Sub-item 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#item3">
-                            <svg height="40" width="40">
-                                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                            </svg> Europe
-                        </a>
-                        <ul class="submenu">
-                            <li><a href="#">Sub-item 1</a></li>
-                            <li><a href="#">Sub-item 2</a></li>
-                            <li><a href="#">Sub-item 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#item4">
-                            <svg height="40" width="40">
-                                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                            </svg> Americas
-                        </a>
-                        <ul class="submenu">
-                            <li><a href="#">Sub-item 1</a></li>
-                            <li><a href="#">Sub-item 2</a></li>
-                            <li><a href="#">Sub-item 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#item5">
-                            <svg height="40" width="40">
-                                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                            </svg> Item 5
-                        </a>
-                        <ul class="submenu">
-                            <li><a href="#">Sub-item 1</a></li>
-                            <li><a href="#">Sub-item 2</a></li>
-                            <li><a href="#">Sub-item 3</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#item6">
-                            <svg height="40" width="40">
-                                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                            </svg> Item 6
-                        </a>
-                        <ul class="submenu">
-                            <li><a href="#">Sub-item 1</a></li>
-                            <li><a href="#">Sub-item 2</a></li>
-                            <li><a href="#">Sub-item 3</a></li>
-                    </li>
+      <div id="hamburger-menu">
+        <button id="menu-btn">&#9776;</button>
+        <h1>Hello</h1>
+        <div id="menu-overlay">
+          <button id="close-btn" onclick="closeNav()">✗</button>
+          <ul>
+            <li class="menu-item">
+              <a href="#item2">
+                <svg height="40" width="40">
+                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3"
+                    fill="#4DB6AC" />
+                  </svg> Asia
+                </a>
+                <ul class="submenu">
+                  <li><a href="#">Sub-item 1</a></li>
+                  <li><a href="#">Sub-item 2</a></li>
+                  <li><a href="#">Sub-item 3</a></li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="#item3">
+                  <svg height="40" width="40">
+                    <circle cx="15" cy="15" r="10" stroke="black"
+                      stroke-width="3" fill="#4DB6AC" />
+                    </svg> Europe
+                  </a>
+                  <ul class="submenu">
+                    <li><a href="#">Sub-item 1</a></li>
+                    <li><a href="#">Sub-item 2</a></li>
+                    <li><a href="#">Sub-item 3</a></li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="#item4">
+                    <svg height="40" width="40">
+                      <circle cx="15" cy="15" r="10" stroke="black"
+                        stroke-width="3" fill="#4DB6AC" />
+                      </svg> Americas
+                    </a>
+                    <ul class="submenu">
+                      <li><a href="#">Sub-item 1</a></li>
+                      <li><a href="#">Sub-item 2</a></li>
+                      <li><a href="#">Sub-item 3</a></li>
                     </ul>
-            </div>
-        </div>
-    </div>
-    <script src="./script.js"></script>
-</body>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#item5">
+                      <svg height="40" width="40">
+                        <circle cx="15" cy="15" r="10" stroke="black"
+                          stroke-width="3" fill="#4DB6AC" />
+                        </svg> Item 5
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="#">Sub-item 1</a></li>
+                        <li><a href="#">Sub-item 2</a></li>
+                        <li><a href="#">Sub-item 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item">
+                      <a href="#item6">
+                        <svg height="40" width="40">
+                          <circle cx="15" cy="15" r="10" stroke="black"
+                            stroke-width="3" fill="#4DB6AC" />
+                          </svg> Item 6
+                        </a>
+                        <ul class="submenu">
+                          <li><a href="#">Sub-item 1</a></li>
+                          <li><a href="#">Sub-item 2</a></li>
+                          <li><a href="#">Sub-item 3</a></li>
+                        </ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <script src="./script.js"></script>
+              </body>
 
-</html>
+            </html>
