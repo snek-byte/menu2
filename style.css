@@ -92,7 +92,6 @@ body {
   opacity: 0;
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
   font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96"; 
-  font-size: 18px;
 }
 
 .submenu li {
