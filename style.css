@@ -64,7 +64,7 @@ body {
   background: none;
   border: none;
   color: #4db6ac;
-  font-size: 2em;
+  font-size: 32px;
 }
 
 .menu-item a {
@@ -72,7 +72,7 @@ body {
   align-items: center;
   text-decoration: none; !important;
   color: inherit;
-  font-size: 2em;
+  font-size: 32px;
   font-family: "SF-UI-DISPLAY-MEDIUM"; 
 }
 
@@ -86,6 +86,7 @@ body {
   transform: translateX(0);
   opacity: 0;
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  font-size: 32px;
 }
 
 .submenu li {
