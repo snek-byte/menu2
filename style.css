@@ -2,7 +2,7 @@
   font-family: 'SF-UI-DISPLAY-MEDIUM-58646BE638F96';
   src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-UI-DISPLAY-MEDIUM-58646BE638F96.OTF') format('opentype');
  
- #li {
+ .li {
     list-style-type: none;
 }
 
