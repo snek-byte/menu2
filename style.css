@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Pro-Display-Heavy';
-  src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-Pro-Display-Heavy.otf') format('opentype');
+  src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-UI-DISPLAY-MEDIUM-58646BE638F96.OTF') format('opentype');
 }
 
 h1 {
-  font-family: "Pro-Display-Heavy", Fallback, sans-serif;
+  font-family: "Pro-Display-Medium", Fallback, sans-serif;
   font-weight: 900;
   font-style: normal;
 }
@@ -18,7 +18,7 @@ p.quote {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Pro-Display-Heavy", sans-serif;
+  font-family: "Pro-Display-MEDIUM", sans-serif;
   background-color: #f4f4f4;
 }
 
@@ -73,7 +73,7 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 2em;
-  font-family: "Pro-Display-Heavy"; 
+  font-family: "Pro-Display-Medium"; 
 }
 
 .menu-item a:hover {
