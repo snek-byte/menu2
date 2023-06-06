@@ -1,3 +1,10 @@
+@fontface: 
+  
+  @font-face {
+  font-family: "special elite";
+  src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/Special%20Elite-Regular.ttf') format('woff2');
+}
+
 h1 {
   font-family: Pro-Display-Heavy.otf";
   font-weight: 900;
@@ -5,7 +12,7 @@ h1 {
 }
 
 p.quote {
-  font-family: "Lato Black";
+  font-family: "special elite";
   font-weight: 400;
   font-style: italic;
 }
@@ -14,7 +21,7 @@ p.quote {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "special elite, sans-serif;
   background-color: #f4f4f4;
 }
 
