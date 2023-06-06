@@ -59,7 +59,7 @@ body {
   padding: 100px 50px;
    overflow: auto; 
  list-style-type: none;
-}
+
 }
 
 .menu-list {
@@ -97,7 +97,7 @@ body {
 
 .submenu li {
   margin: 5px 0;
-  list-style-type: none;
+  
  
   
 }
