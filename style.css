@@ -3,6 +3,7 @@
   src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-UI-DISPLAY-MEDIUM-58646BE638F96.OTF') format('opentype');
 }
 
+
 h1 {
   font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", Fallback, sans-serif;
   font-weight: 900;
@@ -22,6 +23,11 @@ body {
   background-color: #f4f4f4;
 }
 
+#menu-overlay {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  /* existing styles... */
+}
 
 #hamburger-menu {
   position: relative;
