@@ -31,8 +31,9 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
 #menu-overlay {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -54,17 +55,16 @@ body {
   overflow-y: auto;
   
 }
+
 #close-btn {
   cursor: pointer;
   background: none;
   border: none;
-  color: #4db6ac;
-  padding: 0px;
-  font-size: 2em;
-  position: absolute;
-  right: 20px;
-  top: 20px;
+  color: #4db6ac
+   padding: 0px;
+   font-size: 2em;  
 }
+
 
 .menu-item a {
   display: flex;
