@@ -1,16 +1,16 @@
 @font-face {
-  font-family: 'SF-UI-DISPLAY-MEDIUM';
+  font-family: 'SF-UI-DISPLAY-MEDIUM-58646BE638F96';
   src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-UI-DISPLAY-MEDIUM-58646BE638F96.OTF') format('opentype');
 }
 
 h1 {
-  font-family: "SF-UI-DISPLAY-MEDIUM", Fallback, sans-serif;
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", Fallback, sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 
 p.quote {
-  font-family: "SF-UI-DISPLAY-MEDIUM", Fallback, sans-serif;
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", Fallback, sans-serif;
   font-weight: 400;
   font-style: italic;
 }
@@ -18,7 +18,7 @@ p.quote {
 body {
   margin: 0;
   padding: 0;
-  font-family: "SF-UI-DISPLAY-MEDIUM", sans-serif;
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", sans-serif;
   background-color: #f4f4f4;
 }
 
@@ -70,10 +70,10 @@ body {
 .menu-item a {
   display: flex;
   align-items: center;
-  text-decoration: none; !important;
+  text-decoration: none;
   color: inherit;
-  font-size: 2em;
-  font-family: "SF-UI-DISPLAY-MEDIUM"; 
+  font-size: 32px;
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96"; 
 }
 
 .menu-item a:hover {
@@ -86,6 +86,8 @@ body {
   transform: translateX(0);
   opacity: 0;
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96"; 
+  font-size: 18px;
 }
 
 .submenu li {
