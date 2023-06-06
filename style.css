@@ -1,4 +1,4 @@
-@font-face {
+  @font-face {
   font-family: 'Pro-Display-Heavy';
   src: url('https://github.com/blaisck/sfwin/blob/master/SFPro/OpenType/SF-Pro-Display-Heavy.otf');
 }
@@ -74,14 +74,12 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 2em;
-  font-family: 'avenir-next-bold.ttf'; 
+  font-family: "Pro-Display-Heavy"; 
 }
 
 .menu-item a:hover {
   text-decoration: none; 
 }
-
-
 
 .submenu {
   list-style-type: none;
