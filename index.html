@@ -1,92 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Scents of the World</title>
-   <link rel="stylesheet" href="./style.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Overlay</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 </head>
 <body>
-  <div id="myNav" class="nav">
-    <div id="hamburger-menu">
-      <button id="menu-btn">&#9776;</button><h1>Hello</h1>
-      <div id="menu-overlay">
-        <div id="menu-content">
-          <ul>
-            <li class="menu-item">
-              <a href="#item1">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Africa
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1</a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#item2">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Asia
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1</a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#item3">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Europe
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1</a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#item4">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Americas
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1</a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#item5">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Item 5
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1
-                </a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-          </ul>
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        </div>
-      </div>
+    <div id="menu-btn">Menu</div>
+    <div id="menu-overlay">
+        <div id="close-btn" class="menu-close">X</div>
+        <nav class="menu-items">
+            <div class="menu-item">
+                <a href="#">Link 1</a>
+                <div class="submenu">
+                    <a href="#">Sublink 1</a>
+                    <a href="#">Sublink 2</a>
+                    <a href="#">Sublink 3</a>
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="#">Link 2</a>
+                <div class="submenu">
+                    <a href="#">Sublink 1</a>
+                    <a href="#">Sublink 2</a>
+                    <a href="#">Sublink 3</a>
+                </div>
+            </div>
+            <div class="menu-item">
+                <a href="#">Link 3</a>
+                <div class="submenu">
+                    <a href="#">Sublink 1</a>
+                    <a href="#">Sublink 2</a>
+                    <a href="#">Sublink 3</a>
+                </div>
+            </div>
+        </nav>
     </div>
-  </div>
-  <script src="./script.js"></script>
-  
+    <script src="script.js"></script>
 </body>
 </html>
