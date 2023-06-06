@@ -1,27 +1,22 @@
-@font-face {
-  font-family: 'SF-UI-DISPLAY-MEDIUM-58646BE638F96';
-  src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-UI-DISPLAY-MEDIUM-58646BE638F96.OTF') format('opentype');
-}
-
 h1 {
-  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", Fallback, sans-serif;
+  font-family: Pro-Display-Heavy.otf";
   font-weight: 900;
   font-style: normal;
 }
 
-.quote {
-  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", Fallback, sans-serif;
+p.quote {
+  font-family: "Lato Black";
   font-weight: 400;
   font-style: italic;
 }
 
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f4f4f4;
 }
-
 
 #hamburger-menu {
   position: relative;
@@ -42,7 +37,6 @@ body {
   color: #4db6ac;
   display: none;
   padding: 100px 50px;
-   overflow: auto; 
 }
 
 #menu-overlay ul {
@@ -50,43 +44,27 @@ body {
   padding: 0;
 }
 
-.menu-list {
-  max-height: calc(100vh - 150px);
-  overflow-y: auto;
-  
-}
-
 #close-btn {
   cursor: pointer;
   background: none;
   border: none;
-  color: #4db6ac
-   padding: 0px;
-   font-size: 2em;  
+  color: #4db6ac;
+  font-size: 2em;
 }
-
 
 .menu-item a {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: inherit;
-  font-size: 32px;
-  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96"; 
+  font-size: 2em;
 }
-
-.menu-item a:hover {
-  text-decoration: none !important;
-}
-
 
 .submenu {
   list-style-type: none;
   transform: translateX(0);
   opacity: 0;
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96"; 
-  font-size: 18px;
 }
 
 .submenu li {
