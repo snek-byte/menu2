@@ -67,6 +67,20 @@ body {
   font-size: 2em;
 }
 
+#close-btn {
+    position: absolute;
+    left: 0px; 
+    top: 50px; /* adjust this value as needed */
+    cursor: pointer;
+    background: none; /* Remove default button background */
+    border: none;     /* Remove default button border */
+    padding: 0px;     /* Remove default button padding */
+    color: #4db6ac;   /* Set the color to #4db6ac */
+    font-size: 2em;   /* Increase the font-size to make the button larger */
+
+}
+
+
 .menu-item a {
   display: flex;
   align-items: center;
