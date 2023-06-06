@@ -3,43 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu Overlay</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Scents of the World</title>
 </head>
 <body>
-  <div id="menu-btn">Menu</div>
-  <div id="menu-overlay" class="menu-overlay">
-    <button id="close-btn" class="close-btn">X</button>
-    <nav>
+<div id="menu-overlay">
+    <div id="menu-content">
       <ul>
-        <li>
-          <a href="#" class="menu-item">Link 1</a>
-          <ul class="submenu">
-            <li><a href="#">Sublink 1</a></li>
-            <li><a href="#">Sublink 2</a></li>
-            <li><a href="#">Sublink 3</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#" class="menu-item">Link 2</a>
-          <ul class="submenu">
-            <li><a href="#">Sublink 1</a></li>
-            <li><a href="#">Sublink 2</a></li>
-            <li><a href="#">Sublink 3</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#" class="menu-item">Link 3</a>
-          <ul class="submenu">
-            <li><a href="#">Sublink 1</a></li>
-            <li><a href="#">Sublink 2</a></li>
-            <li><a href="#">Sublink 3</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
+  <div id="myNav" class="nav">
+    <div id="hamburger-menu">
+      <button id="menu-btn">&#9776;</button><h1>Hello</h1>
+     <div id="menu-overlay">
+        <ul>
+          <li>   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <div id="myNav" class="nav"></a>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+      <button id="close-btn">&#10007;</button></a>
+          </li>
+          <li class="menu-item">
+            <a href="#item1">
+              <svg height="40" width="40">
+                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
+              </svg>
+              Africa
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#item2">
+              <svg height="40" width="40">
+                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
+              </svg>
+              Asia
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#item3">
+              <svg height="40" width="40">
+                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
+              </svg>
+              Europe
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#item4">
+              <svg height="40" width="40">
+                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
+              </svg>
+              Americas
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#item5">
+              <svg height="40" width="40">
+                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
+              </svg>
+              Item 5
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="#item6">
+              <svg height="40" width="40">
+                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
+              </svg>
+              Item 6
+            </a>
+            <ul class="submenu">
+              <li><a href="#">Sub-item 1</a></li>
+              <li><a href="#">Sub-item 2</a></li>
+              <li><a href="#">Sub-item 3</a></li>
+              
+              </ul>
+    </div>
+    <div id="close-button-container">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        <button id="close-btn">&#10007;</button>
+      </a>
+    </div>
+</div>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Observer.min.js" integrity="sha512-xZwvJ7Eya4dX2fKK4nZPYwAb+P+BpJSlj1EjS7BDnVClIeITU7H0YegTg0FZ+TprLkG5StMhKyYl5B3f9JytvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/CSSRulePlugin.min.js" integrity="sha512-zaTjCyJwbhpd8V594wpmUStv6Dy/SnmP7jR+XXnE49z2ayHkSirlNiP4XQc15Zgk+p5gXGe5ZUQYu4yRtShqkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/CustomEase.min.js" integrity="sha512-vJEpuxWlGFUZNeqnZUKrn17bg/eQ0nWlooxNuv5mPVW0+U6OrEpp/6meH0oJIG4tet3snWJWBjdkFJSuGKOcUw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  
+  <script src="./script.js"></script> 
+</body>
+</html>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Observer.min.js" integrity="sha512-xZwvJ7Eya4dX2fKK4nZPYwAb+P+BpJSlj1EjS7BDnVClIeITU7H0YegTg0FZ+TprLkG5StMhKyYl5B3f9JytvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
