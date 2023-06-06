@@ -1,76 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Scents of the World</title>
-</head>
-<body>
-  <div id="myNav" class="nav">
-    <div id="hamburger-menu">
-      <button id="menu-btn">&#9776;</button><h1>Hello</h1>
-      <div id="menu-overlay">
-        <div id="menu-content">
-          <ul>
-            <li class="menu-item">
-              <a href="#item1">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Africa
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1</a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#item2">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Asia
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1</a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#item3">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Europe
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1</a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#item4">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Americas
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1</a></li>
-                <li><a href="#">Sub-item 2</a></li>
-                <li><a href="#">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="#item5">
-                <svg height="40" width="40">
-                  <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3" fill="#4DB6AC" />
-                </svg>
-                Item 5
-              </a>
-              <ul class="submenu">
-                <li><a href="#">Sub-item 1
+
+@font-face {
+  font-family: 'SF-UI-DISPLAY-MEDIUM-58646BE638F96';
+  src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-UI-DISPLAY-MEDIUM-58646BE638F96.OTF') format('opentype');
+}
+
+h1 {
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", Fallback, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.quote {
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", Fallback, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96", sans-serif;
+  background-color: #f4f4f4;
+}
+
+
+#hamburger-menu {
+  position: relative;
+}
+
+#menu-btn {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#menu-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #004037;
+  color: #4db6ac;
+  display: none;
+  padding: 100px 50px;
+   overflow: auto; 
+}
+
+#menu-overlay ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-list {
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  
+}
+
+#close-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #4db6ac
+   padding: 0px;
+   font-size: 2em;  
+}
+
+
+.menu-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 32px;
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96"; 
+}
+
+.menu-item a:hover {
+  text-decoration: none !important;
+}
+
+
+.submenu {
+  list-style-type: none;
+  transform: translateX(0);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96"; 
+  font-size: 18px;
+}
+
+.submenu li {
+  margin: 5px 0;
+}
