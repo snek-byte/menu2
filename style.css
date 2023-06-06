@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Pro-Display-Heavy';
+  font-family: 'SF-UI-DISPLAY-MEDIUM';
   src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-UI-DISPLAY-MEDIUM-58646BE638F96.OTF') format('opentype');
 }
 
@@ -70,7 +70,7 @@ body {
 .menu-item a {
   display: flex;
   align-items: center;
-  text-decoration: none;
+  text-decoration: none; !important;
   color: inherit;
   font-size: 2em;
   font-family: "SF-UI-DISPLAY-MEDIUM"; 
