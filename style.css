@@ -2,7 +2,6 @@
   font-family: 'SF-UI-DISPLAY-MEDIUM-58646BE638F96';
   src: url('https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/SF-UI-DISPLAY-MEDIUM-58646BE638F96.OTF') format('opentype');
   
-  li { list-style-type: none; 
 }
 
 h1 {
@@ -74,13 +73,14 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
+  list-style-type: none;
   color: inherit;
   font-size: 32px;
   font-family: "SF-UI-DISPLAY-MEDIUM-58646BE638F96"; 
   list-style-type: none; 
   padding: 0; 
   margin: 0; 
-}
+
 }
 
 .menu-item a:hover {
@@ -99,4 +99,6 @@ body {
 
 .submenu li {
   margin: 5px 0;
+ 
+  
 }
