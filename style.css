@@ -22,23 +22,34 @@ body {
 }
 
 #menu-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	background-color: #004037;
-	color: #4db6ac;
-	display: none;
-	padding: 100px 50px;
+  position: fixed; 
+  display: none; 
+  width: 100%; 
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #004037;
+   color: #4db6ac;
+  z-index: 2;
 }
 
 #menu-overlay ul {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
+.menu-list {
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+}
+
+
 #close-btn {
+  position: absolute;
+  top: 10px;  
+  right: 10px; 
   cursor: pointer;
   background: none;
   border: none;
@@ -46,22 +57,28 @@ body {
   font-size: 2em;
 }
 
-
 .menu-item a {
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-	color: inherit;
-	font-size: 2em;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  font-size:30px;
+  font-family: "special elite";
+}
+
+.menu-item a:hover {
+  text-decoration: none; 
 }
 
 .submenu {
-	list-style-type: none;
-	transform: translateX(0);
-	opacity: 0;
-	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  list-style-type: none;
+  transform: translateX(0);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  font-size: 10px;
+  font-family: "special elite";
 }
 
 .submenu li {
-	margin: 5px 0;
+  margin: 5px 0;
 }
