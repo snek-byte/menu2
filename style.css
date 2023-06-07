@@ -1,6 +1,8 @@
 @font-face {
 	font-family: "special elite";
-	src: url(https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/Special%20Elite-Regular.ttf) format('woff2');
+	src: url
+ (https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/Special%20Elite-Regular.ttf)
+ format('woff2')
 }
 
 body {
