@@ -3,6 +3,15 @@
 	src: url
  (https://cdn.jsdelivr.net/gh/snek-byte/menu2@main/Special%20Elite-Regular.ttf)
  format('woff2')
+		
+.menu-item {
+  font-size: 20px; 
+}
+
+.ubmenu a {
+ font-size: 14px; 
+}
+
 }
 
 body {
