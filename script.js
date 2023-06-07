@@ -1,3 +1,4 @@
+
 // Obtain elements from DOM
 const menuButton = document.querySelector("#menu-btn");
 const closeButton = document.querySelector("#close-btn");
