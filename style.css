@@ -39,14 +39,13 @@ body {
 }
 
 #close-btn {
-	cursor: pointer;
-	background: none;
-	border: none;
-	color: #4db6ac;
-	font-size: 2em;
-	position: absolute;
-	right: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #4db6ac;
+  font-size: 2em;
 }
+
 
 .menu-item a {
 	display: flex;
