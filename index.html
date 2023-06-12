@@ -1,81 +1,66 @@
-<!DOCTYPE html>
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Scents World</title>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Overlay Menu</title>
 </head>
 
 <body>
-  <div id="myNav" class="nav">
-    <div id="hamburger-menu"></div>
-      <button id="menu-btn">&#9776;</button></div>
-      <h1>Hello</h1>
-      <div id="menu-overlay">
-        <div> <button id="close-btn" onclick="closeNav()">✗</button></div><div>
-        <ul>
-          <li class="menu-item">
-            <a href="#">
-              <svg height="40" width="40">
-                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3"
-                  fill="#4DB6AC" />
-                </svg> Africa
-              </a>
-              <ul class="submenu">
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 1</a></li>
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 2</a></li>
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 3</a></li>
-              </ul>
-            </li><li class="menu-item">
-            <a href="#">
-              <svg height="40" width="40">
-                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3"
-                  fill="#4DB6AC" />
-                </svg> Asia
-              </a>
-              <ul class="submenu">
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 1</a></li>
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 2</a></li>
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 3</a></li>
-              </ul>
-            </li><li class="menu-item">
-            <a href="#">
-              <svg height="40" width="40">
-                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3"
-                  fill="#4DB6AC" />
-                </svg> Europe
-              </a>
-              <ul class="submenu">
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 1</a></li>
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 2</a></li>
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 3</a></li>
-              </ul>
-            </li>
-            <li class="menu-item">
-            <a href="#">
-              <svg height="40" width="40">
-                <circle cx="15" cy="15" r="10" stroke="black" stroke-width="3"
-                  fill="#4DB6AC" />
-                </svg> The Americas
-              </a>
-              <ul class="submenu">
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 1</a></li>
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 2</a></li>
-                <li><a href="http://example.com" style="font-size: 14px;">Sub-item 3</a></li>
-              </ul>
-            </li>
-        </ul>
-      </div>
-    </div>
+
+  <div style="position: relative;">
+    <button id="close-btn" class="closeNav" onclick="closeNav()" style="display: block;">✗</button>
   </div>
-  <script src="./script.js"></script>
+
+  <div id="menu">
+    <ul>
+      <li>
+        <svg class="bullet-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+          <circle cx="25" cy="25" r="20" />
+        </svg>
+        <a href="#">Item 1</a>
+        <ul class="sub-menu">
+          <li><a href="http://example.com">Sublink 1.1</a></li>
+          <li><a href="http://example.com">Sublink 1.2</a></li>
+          <li><a href="http://example.com">Sublink 1.3</a></li>
+        </ul>
+      </li>
+      <li>
+        <svg class="bullet-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+          <circle cx="25" cy="25" r="20" />
+        </svg>
+        <a href="#">Item 2</a>
+        <ul class="sub-menu">
+          <li><a href="http://example.com">Sublink 2.1</a></li>
+          <li><a href="http://example.com">Sublink 2.2</a></li>
+          <li><a href="http://example.com">Sublink 2.3</a></li>
+        </ul>
+      </li>
+      <li>
+        <svg class="bullet-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+          <circle cx="25" cy="25" r="20" />
+        </svg>
+        <a href="#">Item 3</a>
+        <ul class="sub-menu">
+          <li><a href="http://example.com">Sublink 3.1</a></li>
+          <li><a href="http://example.com">Sublink 3.2</a></li>
+          <li><a href="http://example.com">Sublink 3.3</a></li>
+        </ul>
+      </li>
+      <li>
+        <svg class="bullet-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+          <circle cx="25" cy="25" r="20" />
+        </svg>
+        <a href="#">Item 4</a>
+        <ul class="sub-menu">
+          <li><a href="http://example.com">Sublink 4.1</a></li>
+          <li><a href="http://example.com">Sublink 4.2</a></li>
+          <li><a href="http://example.com">Sublink 4.3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
