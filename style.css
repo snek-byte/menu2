@@ -62,4 +62,21 @@ ul {
 
 .sub-menu {
     display: none;
+ .sub-menu.open {
+      display: flex;
+    }
+}
+.chart-container {
+    display: flex;
+    justify-content: center; /* Aligns the chart to the center horizontally */
+    align-items: center; /* Aligns the chart to the center vertically */
+    height: 20vh; /* Sets the height to the full viewport height */
+    width: 100vw; /* Sets the width to the full viewport width */
+    background-color: #f0f0f0; /* Just for visibility */
+}
+
+#chart {
+    width: 80%; /* Adjust based on your needs */
+    height: 80%; /* Adjust based on your needs */
+    background-color: #fff; /* Just for visibility */
 }
