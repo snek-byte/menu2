@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -6,7 +7,6 @@
 </head>
 
 <body>
-
   <div style="position: relative;">
     <button id="close-btn" class="closeNav" onclick="closeNav()" style="display: block;">✗</button>
   </div>
@@ -20,28 +20,49 @@
         <a href="#">Africa</a>
         <ul class="sub-menu">
           <li><a href="#" onclick="toggleMenu('menu1')">Sublink 1.1</a></li>
-<div class="chart-container">
-            <div id="chart1"> </div>
-        </div>
-          <li><a href="#" onclick="toggleMenu('menu1')">Sublink 1.2</a></li>
-<div class="chart-container">
-            <div id="chart2"> </div>
-        </div>
-          <li><a href="#" onclick="toggleMenu('menu1')">Sublink 1.3</a></li>
-<div class="chart-container">
-            <div id="chart3"> </div>
-        </div>
+          <li>
+            <div class="chart-container">
+              <div id="chart1"></div>
+            </div>
+          </li>
+          <li><a href="#" onclick="toggleMenu('menu2')">Sublink 1.2</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart2"></div>
+            </div>
+          </li>
+          <li><a href="#" onclick="toggleMenu('menu3')">Sublink 1.3</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart3"></div>
+            </div>
+          </li>
         </ul>
       </li>
       <li>
         <svg class="bullet-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
           <circle cx="35" cy="35" r="20" />
         </svg>
-       <a href="#">Americas</a>
+        <a href="#">Americas</a>
         <ul class="sub-menu">
-          <li><a href="http://example.com">Sublink 2.1</a></li>
-          <li><a href="http://example.com">Sublink 2.2</a></li>
-          <li><a href="http://example.com">Sublink 2.3</a></li>
+          <li><a href="#" onclick="toggleMenu('menu4')">Sublink 2.1</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart4"></div>
+            </div>
+          </li>
+          <li><a href="#" onclick="toggleMenu('menu5')">Sublink 2.2</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart5"></div>
+            </div>
+          </li>
+          <li><a href="#" onclick="toggleMenu('menu6')">Sublink 2.3</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart6"></div>
+            </div>
+          </li>
         </ul>
       </li>
       <li>
@@ -50,9 +71,24 @@
         </svg>
         <a href="#">Asia</a>
         <ul class="sub-menu">
-          <li><a href="http://example.com">Sublink 3.1</a></li>
-          <li><a href="http://example.com">Sublink 3.2</a></li>
-          <li><a href="http://example.com">Sublink 3.3</a></li>
+          <li><a href="#" onclick="toggleMenu('menu7')">Sublink 3.1</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart7"></div>
+            </div>
+          </li>
+          <li><a href="#" onclick="toggleMenu('menu8')">Sublink 3.2</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart8"></div>
+            </div>
+          </li>
+          <li><a href="#" onclick="toggleMenu('menu9')">Sublink 3.3</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart9"></div>
+            </div>
+          </li>
         </ul>
       </li>
       <li>
@@ -61,14 +97,29 @@
         </svg>
         <a href="#">Europe</a>
         <ul class="sub-menu">
-          <li><a href="http://example.com">Sublink 4.1</a></li>
-          <li><a href="http://example.com">Sublink 4.2</a></li>
-          <li><a href="http://example.com">Sublink 4.3</a></li>
+          <li><a href="#" onclick="toggleMenu('menu10')">Sublink 4.1</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart10"></div>
+            </div>
+          </li>
+          <li><a href="#" onclick="toggleMenu('menu11')">Sublink 4.2</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart11"></div>
+            </div>
+          </li>
+          <li><a href="#" onclick="toggleMenu('menu12')">Sublink 4.3</a></li>
+          <li>
+            <div class="chart-container">
+              <div id="chart12"></div>
+            </div>
+          </li>
         </ul>
       </li>
     </ul>
   </div>
-<script src="https://d3js.org/d3.v7.min.js"></script>
+
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
   <script src="script.js"></script>
